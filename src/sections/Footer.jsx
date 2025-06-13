@@ -10,10 +10,14 @@ const Footer = () => {
         </div>
         <div className='flex gap-3'>
             <div className="social-icon">
+                <a href="https://github.com/Legaz-le" className="flex justify-center items-center">
                 <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+                </a>
             </div>
             <div className="social-icon">
-                <img src="/assets/twitter.svg" alt="linked" className="w-1/2 h-1/2" />
+                <a href="https://www.linkedin.com/in/abylaikhan-zhumakov-25800628b/" className="flex justify-center items-center">
+                <img src="/assets/icons8-linkedin.svg" alt="linked" className="w-1/2 h-1/2" />
+                </a>
             </div>
         </div>
         <p className="text-white-500">© 2025 Abylaikhan. All rights reserved.</p>

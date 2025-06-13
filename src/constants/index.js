@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: ' SaaS App Landing Page',
+    desc: 'A responsive and interactive landing page built for the Bookmark app. The project demonstrates strong attention to UI/UX, component structure, and responsive design principles.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Crafted a professional business demo website, integrating visually appealing design, clean layout structure, and fully responsive behavior across all devices using modern web technologies',
+    href: 'https://legaz-demo-website.netlify.app',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,11 +95,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Galleria slideshow-site',
+    desc: 'This is a fully responsive art gallery slideshow application built based on the Frontend Mentor challenge. The app allows users to browse through a collection of artworks, view detailed information, and toggle between light and dark themes. The project focuses on interactive UI, smooth transitions, and accessibility.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Built an interactive image gallery with a fullscreen slideshow feature, optimized for smooth transitions, responsive layouts, and accessible navigation using React and advanced CSS.',
+    href: 'https://iridescent-syrniki-4ef807.netlify.app',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -132,11 +132,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Space Tourism Multi-Page',
+    desc: 'A fully responsive multi-page space tourism website built as part of the Frontend Mentor challenge. The project consists of multiple pages showcasing different destinations, crew members, and technologies related to space travel. The design focuses on clean layout, smooth transitions, and mobile-first responsiveness.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Created a multi-page space exploration website with dynamic content, smooth page transitions, and a fully responsive design, leveraging modern React components and optimized for performance.',
+    href: 'https://poetic-speculoos-ef318b.netlify.app',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -171,11 +171,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Bookmark landing page',
+    desc: 'A clean, modern, and fully responsive landing page developed for the Frontend Mentor Bookmark challenge. The page promotes a fictional bookmarking service with clear calls to action, feature descriptions, FAQs, and an email subscription form.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Developed a modern and fully responsive landing page for the Bookmark app, focusing on smooth user experience, interactive UI components, and clean, maintainable code using React and TailwindCSS.',
+    href: 'https://profound-flan-6af45f.netlify.app',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -207,43 +207,7 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
+  
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

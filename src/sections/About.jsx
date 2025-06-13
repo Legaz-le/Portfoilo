@@ -34,7 +34,7 @@ const About = () => {
         <div className="col-sapn-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="/assets/grid2.png"
+              src="/assets/React.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -64,7 +64,7 @@ const About = () => {
             <div >
                 <p className="grid-headtext">I work remotely across most timezones.</p>
                 <p className="grid-subtext">I'm based in Japan, with remote work available. </p>
-                <Button name="Contact me" isBeam containerClass="w-full mt-10" />
+                <a href="#contact"><Button name="Contact me" isBeam containerClass="w-full mt-10"/></a>
             </div>
           </div>
         </div>

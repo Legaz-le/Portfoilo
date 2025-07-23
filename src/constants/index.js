@@ -58,43 +58,6 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Travel Page',
-    desc: 'A responsive and interactive landing page built for the Bookmark app. The project demonstrates strong attention to UI/UX, component structure, and responsive design principles.',
-    subdesc:
-      'Crafted a professional business demo website, integrating visually appealing design, clean layout structure, and fully responsive behavior across all devices using modern web technologies',
-    href: 'https://legaz-demo-website.netlify.app',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
     title: ' SaaS App Landing Page',
     desc: 'A responsive and interactive landing page built for the Bookmark app. The project demonstrates strong attention to UI/UX, component structure, and responsive design principles.',
     subdesc:
